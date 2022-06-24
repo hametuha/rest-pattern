@@ -28,6 +28,7 @@
         "hametuha/singleton-pattern": "^1.2"
     },
     "require-dev": {
-        "phpunit/phpunit": "^5.7|^6|^7|^8"
+        "phpunit/phpunit": "^5.7|^6|^7|^8",
+        "yoast/phpunit-polyfills": "^1.0"
     }
 }
