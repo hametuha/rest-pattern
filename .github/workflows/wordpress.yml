@@ -47,9 +47,6 @@ jobs:
       - name: Install WordPress
         run: bash bin/install-wp-tests.sh wordpress root root 127.0.0.1:3306 ${{ matrix.wp }}
 
-      - name: Run PHP Lint
-        run: composer phpcs
-
       - name: Run PHP Unit Test
         run: composer test
 
